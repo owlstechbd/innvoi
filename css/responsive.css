@@ -1,9 +1,25 @@
 
 
-@media  screen and (max-width: 991px){
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .about-left h1{
+        font-size: 40px;
+    }
+    .client-photo h5{
+        font-size: 14px;
+    }
+    .about-box{
+        margin-bottom: 100px;
+    }
+    #why-choose{
+        padding: 50px 0;
+    }
+    .bg-colour{
+        height: auto;
+    }
 
 }
-@media  screen and (max-width: 720px){
+
+@media  screen and (max-width: 991px){
 .flex{
     flex-direction: column-reverse;
 }
